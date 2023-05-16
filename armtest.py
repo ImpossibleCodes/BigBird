@@ -15,9 +15,12 @@ ESC1 = pca.channels[1]
 
 # arm esc
 ESC1.duty_cycle = 0
+print("arm esc 0")
 time.sleep(0.5)
 ESC1.duty_cycle = 0x7FFF
+print("arm esc 1")
 time.sleep(0.5)
 ESC1.duty_cycle = 0
+print("arm esc 2")
 
 
