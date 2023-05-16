@@ -14,17 +14,16 @@ ESC1 = pca.channels[1]
 # ESC6 = pca.channels[6]
 
 # arm esc
-ESC1.duty_cycle = 0
+ESC1.duty_cycle = 0xFFFF
 print("arm esc 0")
-time.sleep(1)
-ESC1.duty_cycle = 0x7FFF
-print("arm esc 1")
-time.sleep(1)
+input("Press Enter to continue...")
 ESC1.duty_cycle = 0
+print("arm esc 1")
+input("Press Enter to continue...")
+ESC1.duty_cycle = 1000
 print("arm esc 2")
-
-ESC1.duty_cycle = 2000
-print("arm esc 3")
+input("Press Enter to continue...")
+ESC1.duty_cycle = 0
 time.sleep(2)
 
 
