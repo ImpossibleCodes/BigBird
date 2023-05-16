@@ -16,10 +16,10 @@ F-CCW        C-CW
     E-CW D-CCW
 
 Transmitter channel layout for Taranis QX7
-THR: 1          throttle
+THR:            throttle
 RUD/YAW: 2      rotate left/right
-ELE/PITCH: 3    lean forward/backward
-ROLL: 4         lean left/right
+ELE/PITCH:      lean forward/backward
+ROLL:           lean left/right
 
 
 
